@@ -19,7 +19,7 @@ public class WhileLoop {
             double eurosToSell = 1000 * exchangeRate;
             // Subtract the sold pounds from the total
             pounds -= eurosToSell;
-            //Calculate a new random exchange rate for the next day
+            
             exchangeRate = 1 + (Math.random() * 0.2);
             //print days to sell
             System.out.println("Number days to sell = " + days);
